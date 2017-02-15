@@ -12,7 +12,7 @@ def isPrime(number):
         factor += 1
     return True
 
-class IsPrimeTests(unittest.TestCase):
+class IsPrimeTest(unittest.TestCase):
     def testIsPrime(self):
         self.assertFalse(isPrime(133))
         self.assertFalse(isPrime(1))
